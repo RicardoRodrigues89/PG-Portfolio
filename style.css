@@ -1,0 +1,27 @@
+.icon-container {
+  font-size: 5em;
+}
+
+.icon-container i {
+  margin: 0 10px;
+}
+
+.icon-container .fab.fa-html5 {
+  color: #e44d26;
+}
+
+.icon-container .fab.fa-css3-alt {
+  color: #1572b6;
+}
+
+.icon-container .fab.fa-js {
+  color: #f7df1e;
+}
+
+.icon-container .fab.fa-bootstrap {
+  color: #563d7c;
+}
+
+.icon-container .fab.fa-wordpress {
+  color: #21759b;
+}

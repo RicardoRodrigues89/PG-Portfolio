@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Ricardo Rodrigues - Portfólio</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link scroll-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#about">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#portfolio">Portfólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#experience">Experiência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="py-5 text-center">
+      <h1>Ricardo Rodrigues</h1>
+      <p>Desenvolvedor Web</p>
+    </section>
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Sobre Mim</h2>
+            <p>
+              Um entusiasta da tecnologia embarcando na jornada de Análise e
+              Desenvolvimento de Sistemas. Estou ansioso para aplicar meu
+              aprendizado em projetos práticos e colaborar com outros
+              profissionais apaixonados por tecnologia. Sempre pronto a aprender
+              e colaborar com esse campo em constante evolução. Com uma paixão
+              pela arte, cinema, cultura geek, mistérios e literatura. Seu mundo
+              criativo é alimentado por uma ampla gama de influências, desde o
+              horror até a poesia, Aprecia narrativas complexas e mundos
+              fictícios.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/imagem/WhatsApp Image 2023-12-04 at 08.52.24.jpeg"
+              alt="Sua Foto"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2>Portfólio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="/imagem/qrcodeg.png"
+                class="card-img-top"
+                alt="Projeto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Projeto 1</h5>
+                <p class="card-text">
+                  Gerador de QR Code usando HTML, CSS e JS.
+                </p>
+                <a
+                  href="https://github.com/RicardoRodrigues89/GeradorQRCode"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2>Habilidades Técnicas</h2>
+        <div class="icon-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-wordpress"></i>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="py-5">
+      <div class="container">
+        <h2>Educação</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Senac Tech - Front-end (09/10/2023 - atualmente)
+          </li>
+          <li class="list-group-item">
+            Uninter - Front-end (17/07/2023 - atualmente)
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2>Contato</h2>
+        <form action="https://formspree.io/f/xdorrqnn" method="post">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollLinks = document.querySelectorAll(".scroll-link");
+
+        scrollLinks.forEach(function (link) {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            var targetId = this.getAttribute("href").substring(1);
+            var targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+              var offsetTop = targetElement.offsetTop;
+
+              window.scrollTo({
+                top: offsetTop,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+      });
+    </script>
+    <!-- Botão de Rolar para o Topo -->
+    <button
+      id="scrollToTopBtn"
+      class="btn btn-primary scrollToTopBtn"
+      title="Rolar para o Topo"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Seus scripts personalizados (se houver) -->
+    <!-- Adiciona animação de rolar suave para todos os links com a classe 'scroll-link' -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollLinks = document.querySelectorAll(".scroll-link");
+
+        scrollLinks.forEach(function (link) {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            var targetId = this.getAttribute("href").substring(1);
+            var targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+              var offsetTop = targetElement.offsetTop;
+
+              window.scrollTo({
+                top: offsetTop,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        function checkScroll() {
+          var scrollPosition = window.scrollY;
+
+          if (scrollPosition > 100) {
+            scrollToTopBtn.style.display = "block";
+          } else {
+            scrollToTopBtn.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        }
+
+        if (scrollToTopBtn) {
+          window.addEventListener("scroll", checkScroll);
+          scrollToTopBtn.addEventListener("click", scrollToTop);
+        }
+      });
+    </script>
+  </body>
+</html>
