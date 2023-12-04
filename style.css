@@ -1,3 +1,9 @@
+body {
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+}
+
 .icon-container {
   font-size: 5em;
 }
@@ -24,4 +30,10 @@
 
 .icon-container .fab.fa-wordpress {
   color: #21759b;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: #fff;
+  margin-right: 10px;
 }
