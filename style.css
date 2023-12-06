@@ -2,7 +2,7 @@ body {
   background-color: cadetblue;
   margin: 0;
   padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .icon-container {
@@ -40,9 +40,15 @@ body {
 }
 
 @keyframes fadeInOut {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .fade-in-out {
@@ -51,4 +57,85 @@ body {
 
 h1 {
   font-size: 90px;
+}
+
+#skills {
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container i {
+  margin: 0 10px;
+}
+
+.icon-container .fab.fa-html5,
+.icon-container .fab.fa-css3-alt,
+.icon-container .fab.fa-js,
+.icon-container .fab.fa-bootstrap,
+.icon-container .fab.fa-wordpress {
+  font-size: 1em;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.education-item {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease-in-out;
+}
+
+.education-item:hover {
+  transform: scale(1.05);
+}
+
+.education-item i {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+.profile-image img {
+  border-radius: 50%;
+  margin-top: 20px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 8px;
+}
+.profile-image img:hover {
+  filter: brightness(1.2);
+}
+
+.carousel-caption {
+  background-color: #ffffff; /* Fundo branco */
+  border: 1px solid #007bff; /* Borda azul */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Cantos arredondados */
+  color: #000000; /* Cor do texto preto */
+}
+
+/* Adicionando estilos para aumentar o tamanho do "About Me" */
+#about {
+  padding-top: 100px; /* Ajusta o espaçamento superior do conteúdo */
+  padding-bottom: 100px; /* Ajusta o espaçamento inferior do conteúdo */
+}
+
+#about h2 {
+  font-size: 36px; /* Aumenta o tamanho do título "About Me" */
+  margin-bottom: 30px; /* Adiciona margem inferior ao título */
+}
+
+#about p {
+  font-size: 18px; /* Aumenta o tamanho do texto do "About Me" */
+}
+
+.profile-image {
+  margin-top: 20px; /* Adiciona margem superior à imagem do perfil */
 }
