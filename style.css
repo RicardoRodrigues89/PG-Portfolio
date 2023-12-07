@@ -75,7 +75,7 @@ h1 {
 
 #portfolio h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 36px;
 }
 
 .education-item {
@@ -102,6 +102,9 @@ h1 {
   margin-top: 20px;
   border-bottom: 2px solid #000000;
   margin-bottom: 8px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .profile-image img:hover {
@@ -115,6 +118,9 @@ h1 {
   border-radius: 5px;
   color: #000000;
 }
+.bio {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  }
 
 #about {
   padding-top: 100px;
@@ -122,14 +128,125 @@ h1 {
 }
 
 #about h2 {
-  font-size: 36px;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
 #about p {
-  font-size: 18px;
+  font-size: 16px;
 }
+
 
 .profile-image {
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #contact .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .icon-container {
+    font-size: 4em; 
+  }
+
+  #about {
+    padding-top: 70px; 
+  }
+
+  #about h2 {
+    font-size: 30px; 
+  }
+
+  #about p {
+    font-size: 16px; 
+  }
+
+  .profile-image img {
+    margin-top: 15px; 
+  }
+
+  .carousel-caption {
+    padding: 8px; 
+  }
+
+  #portfolio h2 {
+    font-size: 40px; 
+  }
+
+  .education-item {
+    padding: 15px; 
+  }
+
+  .education-item i {
+    font-size: 3em; 
+  }
+
+  .social-icon {
+    font-size: 2em;
+  }
+
+  footer h5 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 60px; 
+  }
+
+  .icon-container {
+    font-size: 3em; 
+  }
+
+  #about {
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+  }
+
+  #about h2 {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+  }
+
+  #about p {
+    font-size: 14px; 
+  }
+
+
+  .profile-image img {
+    margin-top: 10px; 
+  }
+
+  .carousel-caption {
+    padding: 5px; 
+  }
+
+  #portfolio h2 {
+    font-size: 30px; 
+  }
+
+  .education-item {
+    padding: 10px; 
+  }
+
+  .education-item i {
+    font-size: 2em; 
+    margin-bottom: 5px; 
+  }
+
+  .social-icon {
+    font-size: 1.5em; 
+  }
+
+  footer h5 {
+    font-size: 18px; 
+  }
 }
